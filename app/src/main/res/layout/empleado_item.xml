@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="8dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="8dp"
+    >
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/empleado_imagen"
+        />
+
+    <TextView
+        android:id="@+id/empleado_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/empleado_imagen"
+        android:layout_marginStart="14dp"
+        tools:text="Nada Hola mundo"
+        />
+
+    <TextView
+        android:id="@+id/empleado_puesto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/empleado_imagen"
+        android:layout_marginStart="14dp"
+        android:layout_below="@+id/empleado_nombre"
+        tools:text="Adios mundo cruel "
+        />
+
+
+</RelativeLayout>
